@@ -1,0 +1,50 @@
+.header-menu {
+  padding-right: 1em;
+  border-bottom: 1px solid gray;
+  font-size: 1.5em;
+}
+
+.header-menu a {
+  text-decoration: none;
+}
+
+.header-left ul {
+  text-align: center;
+  list-style: none;
+}
+
+.header-left ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 0em 1em;
+  border-left: 1px solid gray;
+}
+
+.menu-show {
+  border-right: 1px solid gray;
+}
+
+.menu-show ul {
+  list-style: none;
+}
+
+.menu-show ul li a {
+  text-decoration: none;
+}
+
+.content {
+  background-color: #f0f5f5;
+}
+
+.content .store-info {
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.content .store-info p {
+  font-weight: bold;
+}
+
+.content .store-info ul {
+  list-style: none;
+}

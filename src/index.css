@@ -1,3 +1,6 @@
+@import "./assets/bootstrap.min.css";
+@import "./assets/style.css";
+
 body {
   margin: 0;
   padding: 0;
