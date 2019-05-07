@@ -33,6 +33,7 @@
 
 .header-left ul :hover {
   background-color: gray;
+  cursor: pointer;
 }
 
 .menu-show {

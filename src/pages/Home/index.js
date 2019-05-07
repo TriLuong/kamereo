@@ -54,68 +54,68 @@ function Home() {
               <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 menu-show">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="javascript:void(0)">
                       <i className="far fa-user" />
                       &nbsp;Account
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="javascript:void(0)">
                       <i className="fas fa-heart" />
                       &nbsp;Favorite Items
                     </a>
                   </li>
                   <li>
-                    <a href="#">Dashboard</a>
+                    <a href="javascript:void(0)">Dashboard</a>
                     <ul>
                       <li>
                         <i className="fas fa-tachometer-alt" />
-                        &nbsp; <a href="#">Overview</a>
+                        &nbsp; <a href="javascript:void(0)">Overview</a>
                       </li>
                       <li>
                         <i className="far fa-list-alt" />
                         &nbsp;
-                        <a href="#">Orders</a>
+                        <a href="javascript:void(0)">Orders</a>
                       </li>
                       <li>
                         <i className="fas fa-truck" />
                         &nbsp;
-                        <a href="#">Supplier List</a>
+                        <a href="javascript:void(0)">Supplier List</a>
                       </li>
                       <li>
                         <i className="far fa-chart-bar" />
                         &nbsp;
-                        <a href="#">Statistic</a>
+                        <a href="javascript:void(0)">Statistic</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Market Place</a>
+                    <a href="javascript:void(0)">Market Place</a>
                     <ul>
                       <li>
                         <i className="fas fa-store" />
                         &nbsp;
-                        <a href="#">Market</a>
+                        <a href="javascript:void(0)">Market</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">General Setting</a>
+                    <a href="javascript:void(0)">General Setting</a>
                     <ul>
                       <li>
                         <i className="far fa-building" />
                         &nbsp;
-                        <a href="#">Company Info</a>
+                        <a href="javascript:void(0)">Company Info</a>
                       </li>
                       <li>
                         <i className="fas fa-utensils" />
                         &nbsp;
-                        <a href="#">Store Info</a>
+                        <a href="javascript:void(0)">Store Info</a>
                       </li>
                       <li>
                         <i className="fas fa-users" />
                         &nbsp;
-                        <a href="#">User Management</a>
+                        <a href="javascript:void(0)">User Management</a>
                       </li>
                     </ul>
                   </li>
