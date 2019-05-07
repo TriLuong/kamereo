@@ -23,7 +23,7 @@ function Home() {
 
             <a href="#"> KAMEREO </a>
           </div>
-          <div className="header-left">
+          <div className="header-right">
             <ul>
               <li>
                 <a href="#">

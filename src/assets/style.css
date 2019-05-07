@@ -18,25 +18,25 @@
   width: 1em;
 }
 
-.header-left {
+.header-right {
   right: 1em;
   font-size: 1.5em;
   position: absolute;
 }
 
-.header-left ul {
+.header-right ul {
   text-align: center;
   list-style: none;
 }
 
-.header-left ul li {
+.header-right ul li {
   display: inline-block;
   text-align: center;
   padding: 0em 1em;
   border-left: 1px solid gray;
 }
 
-.header-left ul :hover {
+.header-right ul :hover {
   background-color: gray;
   cursor: pointer;
 }
