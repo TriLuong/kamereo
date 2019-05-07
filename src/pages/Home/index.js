@@ -11,8 +11,8 @@ function Home() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row ">
-          <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 header-menu">
+        <div className="row header-menu">
+          <div className="header-title">
             <a href="#" onClick={showMenu}>
               {isShowMenu ? (
                 <i className="fas fa-times" />
@@ -22,31 +22,29 @@ function Home() {
             </a>
             <a href="#"> KAMEREO </a>
           </div>
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 header-menu">
-            <div className="header-left">
-              <ul>
-                <li>
-                  <a href="#">
-                    <i className="far fa-envelope" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fas fa-shopping-cart" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fas fa-language" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="far fa-user" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div className="header-left">
+            <ul>
+              <li>
+                <a href="#">
+                  <i className="far fa-envelope" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fas fa-shopping-cart" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fas fa-language" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="far fa-user" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
