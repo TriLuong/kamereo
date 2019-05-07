@@ -1,9 +1,8 @@
 import React from "react";
+import Popup from "reactjs-popup";
+import EditStoreInfo from "./EditStoreInfo";
 
 function StoreInfo() {
-  const showEditStoreProfile = () => {
-    console.log("Click Edit Profile");
-  };
   return (
     <>
       <h1>Store Infomation</h1>
@@ -23,15 +22,21 @@ function StoreInfo() {
             <li>Address</li>
             <li>Tax Number</li>
           </ul>
-
-          <button
-            type="button"
-            className="btn btn-success"
-            style={{ marginBottom: "1em" }}
-            onClick={showEditStoreProfile}
+          <Popup
+            trigger={
+              <button
+                type="button"
+                className="btn btn-success"
+                style={{ marginBottom: "1em" }}
+              >
+                Edit Profile
+              </button>
+            }
+            modal
+            closeOnDocumentClick
           >
-            Edit Profile
-          </button>
+            <EditStoreInfo />
+          </Popup>
         </div>
         <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 delivery-message">
           <p>DELIVERY DEFAULT MESSAGE</p>
