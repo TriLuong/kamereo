@@ -20,6 +20,7 @@ function Home() {
                 <i className="fas fa-bars" />
               )}
             </a>
+
             <a href="#"> KAMEREO </a>
           </div>
           <div className="header-left">

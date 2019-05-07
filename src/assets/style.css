@@ -8,11 +8,16 @@
   padding-left: 1em;
   /* border-bottom: 1px solid gray; */
   font-size: 1.5em;
+  width: 10em;
 }
 
 .header-title a {
   text-decoration: none;
 }
+.header-title a i {
+  width: 1em;
+}
+
 .header-left {
   right: 1em;
   font-size: 1.5em;
