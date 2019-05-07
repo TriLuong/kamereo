@@ -47,6 +47,25 @@
 
 .menu-show ul {
   list-style: none;
+  padding-left: 0;
+  position: absolute;
+}
+
+.menu-show ul li ul {
+  list-style: none;
+  padding-left: 1em;
+  visibility: hidden;
+}
+
+.menu-show ul li:hover ul {
+  list-style: none;
+  padding-left: 1em;
+  visibility: visible;
+  position: relative;
+}
+
+.menu-show ul :hover {
+  cursor: pointer;
 }
 
 .menu-show ul li a {
@@ -55,11 +74,13 @@
 
 .content {
   background-color: #f0f5f5;
+  padding-left: 2em;
 }
 
 .content .store-info {
   border: 1px solid gray;
   background-color: white;
+  margin-left: 1em;
 }
 
 .content .store-info p {
@@ -68,4 +89,10 @@
 
 .content .store-info ul {
   list-style: none;
+}
+
+.content .delivery-message {
+  border: 1px solid gray;
+  background-color: white;
+  margin-left: 2em;
 }
