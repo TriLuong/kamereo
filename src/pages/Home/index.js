@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
-import StoreInfo from "../../components/StoreInfo";
+// import StoreInfo from "../../components/StoreInfo";
+import StoreInfoContainer from "../../components/StoreInfo/StoreInfo.container";
 
 function Home() {
   const [isShowMenu, setIsShowMenu] = useState(false);
@@ -123,12 +124,12 @@ function Home() {
                 </ul>
               </div>
               <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10 content">
-                <StoreInfo />
+                <StoreInfoContainer />
               </div>
             </>
           ) : (
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 content">
-              <StoreInfo />
+              <StoreInfoContainer />
             </div>
           )}
         </div>
